@@ -2,6 +2,10 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_QtWidgetsApplication5.h"
+#include <QLineEdit>
+#include <QKeyEvent>
+#include <QString>
+#include <QTableView>
 
 class QtWidgetsApplication5 : public QMainWindow
 {
