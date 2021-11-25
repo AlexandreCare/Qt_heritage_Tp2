@@ -6,19 +6,32 @@ QtWidgetsApplication5::QtWidgetsApplication5(QWidget *parent)
 {
     ui.setupUi(this);
 
-	this->ui.tableWidget->setRowCount(10);
-	this->ui.tableWidget->setColumnCount(1);
+	QLineEdit *EditLine = new QLineEdit(ui.centralWidget);
+	EditLine->move(x, y);
+
 }
 
-void QtWidgetsApplication5::QLineEdit_Histo()
+/*void QLineEdit::keyPressEvent(QKeyEvent *event)
 {
-	if (QEvent::Enter)//Quand la touche entrer en pressez 
-	{
-		QString contenu = ui->lineEdit->text();
-
-		QTableWidgetItem *value = new QTableWidgetItem(QString::number(contenu));
-		ui.tableWidget->setItem(0, 0, value);
-
+	if (event->key() == Qt::Key_Enter) {
+		QString send = ui.centralWidget->text();
 	}
+}*/
+
+void QLineEdit::returnPressed() 
+{
+
+
+
+
+
+
+	/*int i = 0;
+
+	for (i; i < 10; i++) {
+
+		QTableWidgetItem *value = new QTableWidgetItem(QString::number(tiragede));
+		ui.tableWidget->setItem(i, 0, value);
+
+	}*/
 }
-//void QLineEdit::returnPressed()

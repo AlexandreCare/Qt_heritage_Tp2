@@ -11,6 +11,11 @@ class QtWidgetsApplication5 : public QMainWindow
 {
     Q_OBJECT
 
+		int x = 15;
+		int y = 50;
+		int largeur = 100; 
+		int hauteur = 20;
+
 public:
     QtWidgetsApplication5(QWidget *parent = Q_NULLPTR);
 
@@ -19,6 +24,6 @@ private:
 
 public slots:
 
-	void QtWidgetsApplication5::QLineEdit_Histo();
+	void returnPressed();
 
 };

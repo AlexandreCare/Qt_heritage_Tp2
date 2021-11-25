@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
+    <width>377</width>
     <height>400</height>
    </rect>
   </property>
@@ -14,21 +14,11 @@
    <string>QtWidgetsApplication5</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>30</y>
-      <width>113</width>
-      <height>20</height>
-     </rect>
-    </property>
-   </widget>
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>60</y>
+      <x>10</x>
+      <y>100</y>
       <width>256</width>
       <height>192</height>
      </rect>
@@ -40,7 +30,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>600</width>
+     <width>377</width>
      <height>21</height>
     </rect>
    </property>
